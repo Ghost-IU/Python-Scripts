@@ -6,6 +6,11 @@ _If the password you have entered is found to be hacked, the script will return 
 #### How to use:
   * Download the script (_ofcourse_).
   * Open your favourite terminal.
-  * Now run the following command ''' python3 main.py arg1 arg2 ... argN '''
-    Replace  arg1 ~ argN with the passwords you wanna check!!
+  * Now run the following command 
+  
+  ```
+  python3 main.py arg1 arg2 ... argN 
+ 
+ ```
+  Replace  arg1 ~ argN with the passwords you wanna check!!
   * Enjoy!
