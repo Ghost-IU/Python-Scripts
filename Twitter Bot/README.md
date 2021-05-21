@@ -14,7 +14,7 @@
 ##### _Follow Back_
 - Replace __NAME__ by the username of the user in twitter whom you want to follow back.
 - That's it now run ```python3 follow_back.py```
-- _If you want to follow multiple users at a time, pass a list to this [loop](https://github.com/Ghost-IU/Python-Scripts/blob/9379d69ac52fb33b1f59ebd564fa6b6b3137daa6/Twitter%20Bot/follow_back.py#L24). 
+- _If you want to follow multiple users at a time, pass a list to this [loop](https://github.com/Ghost-IU/Python-Scripts/blob/9379d69ac52fb33b1f59ebd564fa6b6b3137daa6/Twitter%20Bot/follow_back.py#L24)._ 
 
 ##### _Favourite a tweet_
 - Replace __YOUR_SEARCH_STRING__ by the word which you want to favourite your tweets on.
