@@ -12,14 +12,16 @@ api = tweepy.API(auth)
 user = api.me()
 printf(f"Hey {user.name()}")
 
+
 def limlit_handler(cursor):
   try:
     while True:
       yield cursor.next()
   except tweepy.RateLimitError:
     time.sleep(500)
- 
-user_name = 'NAME'   
+
+
+user_name = 'NAME'
 for follower in limit_handler(tweepy.Cursor(api.followers).items():
   if follower.name == user_name:
     follower.follow()
