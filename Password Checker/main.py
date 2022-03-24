@@ -35,10 +35,10 @@ def main(args):
     for password in args:
         count = pwned_api_check(password)
         if(count):
-            printf(
+            print(
                 f'{password} was found {count} times... you should probably change the password!!')
         else:
-            printf(f'{password} was NOT found, carry on!')
+            print(f'{password} was NOT found, carry on!')
     return 'Done Checking Stuff..!!'
 
 
